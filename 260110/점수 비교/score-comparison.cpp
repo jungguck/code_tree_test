@@ -10,7 +10,7 @@ int main() {
     if(a > c && b >=d){
         cout << "1";
     }
-    else if(a <= c || b <= d ){
+    else{
                 cout << "0";
     }
 
