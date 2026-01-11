@@ -15,8 +15,8 @@ int main() {
             printf("BOY");
         }
     }
-    
-    if (a == 1) {
+
+    else {
         if(b>19){
             printf("WOMAN");
 
