@@ -13,10 +13,10 @@ int main() {
         if(number >= 90 ){
             cout << 'A' << " ";
         }
-        else if(number > 80){
+        else if(number >= 80){
             cout << 'B' << " ";
         }
-        else if(number > 70){
+        else if(number >= 70){
             cout << 'C' << " ";
         }
         else if(number >= 60){
