@@ -11,7 +11,7 @@ int main(){
 
     int b = 0;
 
-    for(int i = 1; i<101; i++){
+    for(int i = 0; i<101; i++){
         b = b+i;
 
         if(b>a){
