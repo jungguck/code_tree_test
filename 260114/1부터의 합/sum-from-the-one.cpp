@@ -14,7 +14,7 @@ int main(){
     for(int i = 0; i<101; i++){
         b = b+i;
 
-        if(b>a){
+        if(b>=a){
             cout << i << endl;
             break;
         }
