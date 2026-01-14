@@ -4,8 +4,8 @@ using namespace std;
 int main() {
     // Please write your code here.
     int n;
-    int number[100];
-    int answer[100];
+    int number[700];
+    int answer[700];
     int cnt = 0;
 
     cin >> n;
