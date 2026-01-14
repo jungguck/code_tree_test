@@ -19,7 +19,7 @@ int main() {
             if( number[i]%3 != 0){
                if( number[i]%5 != 0){
                  answer[i] = number[i];
-                 cnt = cnt + 1;
+                 ++cnt ;
                }
             }
         }
