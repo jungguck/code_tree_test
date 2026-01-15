@@ -10,7 +10,7 @@ int main() {
 
     cin >> A >> B; 
 
-    int n = B-A;
+    int n = B-A+1;
 
     for(int i=0; i <n ; i++){
 
