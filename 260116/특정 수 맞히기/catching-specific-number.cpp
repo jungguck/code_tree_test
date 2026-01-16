@@ -9,10 +9,10 @@ int main() {
 
         cin >> a;
 
-        if(a>26){
+        if(a>=26){
             cout << "Lower" << endl;
         }
-        else if(a<24){
+        else if(a<=24){
             cout << "Higher"<< endl;
         }
         else{
