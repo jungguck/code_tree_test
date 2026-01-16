@@ -12,15 +12,15 @@ int main() {
 
         cout << A << " ";
 
-        if(A>=B){
-            break;
-        }
-
         if(A%2 == 0){
             A = A + 3;
         }
         else {
             A = A *2;
+        }
+
+        if(A>B){
+            break;
         }
 
 
