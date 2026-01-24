@@ -7,7 +7,7 @@ int main() {
     int b = 5;
     int c = a*b;
 
-    cout << a <<" * " << b <<" = " << c
+    cout << a <<" * " << b <<" = " << c;
 
     return 0;
 }
