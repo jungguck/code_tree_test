@@ -9,7 +9,7 @@ int main() {
 
     int c = a*b;
 
-    cout << a << " " << b << endl
+    cout << a << " " << b << endl;
     cout <<c;
     return 0;
 }
