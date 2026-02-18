@@ -9,14 +9,10 @@ int main() {
     if (a>b && b>c){
         cout << c;
     }
-
-    if (b>c && c>a){
+    else if (b>c && c>a){
         cout << a;
     }
-
-    if (c>a && a>b){
         cout << b;
-    }
 
     return 0;
 }
