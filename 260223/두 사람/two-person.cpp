@@ -7,7 +7,7 @@ int main() {
     char c,d;
     cin >> a >> c >> b >> d;
 
-    if ( a>= 19 || b >=19 || c == 'M' || d == 'M'){
+    if ( ( a>= 19 && c == 'M') || ( b >=19 && d == 'M')){
         cout << "1";
     }
     else{
