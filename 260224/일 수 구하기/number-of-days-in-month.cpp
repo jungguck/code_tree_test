@@ -10,7 +10,7 @@ int main() {
         cout << "31";
     }
     else if (a%2 == 0){
-        if (a == 2 ){
+        if (a == 2 && a == 8){
             cout <<"28";
         }
         else{
