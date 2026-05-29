@@ -1,8 +1,16 @@
-count = 0
-while count < 3:
+# 변수 선언 및 입력
+cnt = 0
+    
+while True:
+    # 변수 선언 및 입력
     n = int(input())
-    if n % 2 != 0:
-        pass
-    else:
-        print(n // 2)
-        count += 1  # 짝수일 때만 카운트
+    
+    # n이 홀수라면 아무 작업도 하지 않고, n이 짝수라면 n/2를 출력하는 작업을 3번 한 뒤 종료합니다.
+    if n % 2 == 1:
+        continue
+        
+    print(n // 2)
+    cnt += 1
+        
+    if cnt >= 3:
+        break
